@@ -1,20 +1,65 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+   <img width="1918" height="1091" alt="Screenshot 2026-02-19 130115" src="https://github.com/user-attachments/assets/da048b4c-578f-4420-b8e9-5a3144b40f13" />
 </div>
 
-# Run and deploy your AI Studio app
+# Flypart Dashboard 🚁
 
-This contains everything you need to run your app locally.
+A real-time fleet management and telemetry dashboard designed for monitoring autonomous drone deliveries and logistics networks. 
 
-View your app in AI Studio: https://ai.studio/apps/drive/1UMOak_mPjiAuiN1YMrxvaUmjADtgTUc1
+**🚀 Live Demo:** [Flypart Dashboard on Google Cloud Run](https://flypart-dashboard-359978665152.us-west1.run.app/)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🌟 Overview
 
+The Flypart Dashboard provides a comprehensive, centralized view of your active delivery fleet. It allows dispatchers and operators to monitor live telemetry, track active drop-offs, and view automated network events on an interactive map. 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Note:** This project was developed and refined with the help of [Google AI Studio](https://aistudio.google.com/).
+
+## ✨ Key Features
+
+* 🛰️ **Live Telemetry:** Monitor real-time metrics for individual units, including altitude, speed, battery percentage, signal strength, and satellite connectivity.
+* 🗺️ **Interactive Fleet Map:** Visualize your entire operation with a dark-mode map (powered by Leaflet & OpenStreetMap) showing active drones, delivery hubs, and precise on-site drop locations.
+* 📦 **Active Delivery Tracking:** Keep tabs on the current item manifest, item weight, assigned tradesperson, drop-off address, and estimated time of arrival (ETA).
+* 📋 **Active Fleet Overview:** A quick-glance panel showing the status (e.g., `EN ROUTE`, `RETURNING TO BASE`), battery life, and altitude of all active units in the network.
+* 📜 **Network Events Log:** A live-updating terminal feed of auto-dispatch events, system notifications, and routing updates.
+
+---
+
+## 🛠️ Built With
+
+* **Mapping:** Leaflet / OpenStreetMap
+* **Deployment:** Google Cloud Run
+* **AI Assistance:** [Google AI Studio](https://aistudio.google.com/)
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+* Node.js (v16 or higher)
+* npm or yarn
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/flypart-dashboard.git](https://github.com/yourusername/flypart-dashboard.git)
+    cd flypart-dashboard
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4.  **Open your browser:** Navigate to `http://localhost:3000` (or the port specified in your console) to view the dashboard.
