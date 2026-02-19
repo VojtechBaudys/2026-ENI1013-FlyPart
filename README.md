@@ -44,7 +44,7 @@ The Flypart Dashboard provides a comprehensive, centralized view of your active 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/flypart-dashboard.git](https://github.com/yourusername/flypart-dashboard.git)
+    git clone https://github.com/VojtechBaudys/2026-ENI1013-FlyPart.git
     cd flypart-dashboard
     ```
 
