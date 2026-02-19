@@ -6,7 +6,7 @@
 
 A real-time fleet management and telemetry dashboard designed for monitoring autonomous drone deliveries and logistics networks. 
 
-**🚀 Live Demo:** [Flypart Dashboard on Google Cloud Run](https://flypart-dashboard-359978665152.us-west1.run.app/)
+**🚀 Live Demo:** [Flypart Dashboard on Google Cloud Run](https://partfly-45715626815.us-west1.run.app/)
 
 ---
 
