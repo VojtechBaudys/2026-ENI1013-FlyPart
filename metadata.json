@@ -1,0 +1,7 @@
+{
+  "name": "FlyPart Dashboard",
+  "description": "",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
